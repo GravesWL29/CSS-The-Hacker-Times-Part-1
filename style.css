@@ -2,6 +2,10 @@
 .newspaper-container{
     width: 700px;
 }
+a:link {
+    color: red;
+  }
+  
 li {
     color: dimgray;
     display: inline-block;
