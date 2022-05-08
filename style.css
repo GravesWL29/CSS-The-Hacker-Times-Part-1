@@ -5,5 +5,17 @@
 h1{
     text-align: center;
     font-family: Abril Fatface;
+    font-weight: bolder ;
+}
+ul{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #777;
+}
+li {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    color: #777;
     
 }
