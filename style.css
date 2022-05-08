@@ -2,16 +2,27 @@
 .newspaper-container{
     width: 700px;
 }
-a:link {
-    color: red;
-  }
-  
-li {
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
     color: dimgray;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #777;
+    padding: .5em;
+    text-align: center;
+   
+    
+}
+
+nav li {
+    text-decoration: none;
     display: inline-block;
+    color: dimgray;
     text-align: center;
     font-size: 15px;
-    
+   
+    padding: .1em;
 }
 h5{
     color: red;
@@ -26,13 +37,4 @@ h1{
     text-align: center;
     font-family: Abril Fatface;
     font-weight: bolder ;
-}
-ul{
-    color: dimgray;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-color: #777;
-    padding: .5em;
-    text-align: center;
-    
 }
