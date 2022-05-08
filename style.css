@@ -2,20 +2,33 @@
 .newspaper-container{
     width: 700px;
 }
+li {
+    color: dimgray;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    
+}
+h5{
+    color: red;
+}
+body{
+    background-color: #eee;
+}
+.date{
+    color: #777;
+}
 h1{
     text-align: center;
     font-family: Abril Fatface;
     font-weight: bolder ;
 }
 ul{
+    color: dimgray;
     border-top-style: solid;
     border-bottom-style: solid;
     border-color: #777;
-}
-li {
-    display: inline-block;
+    padding: .5em;
     text-align: center;
-    font-size: 15px;
-    color: #777;
     
 }
